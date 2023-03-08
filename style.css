@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Define the header styles */
+header {
+    background-color: #002d72;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Define the navigation styles */
+nav {
+    background-color: #0048b7;
+    color: #fff;
+    padding: 10px;
+}
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+                nav ul li a:hover {
+                    color: #ffd700;
+                }
+
+/* Define the section styles */
+section {
+    padding: 20px;
+}
+
+    section h2 {
+        color: #0048b7;
+    }
+
+    section p {
+        color: #333;
+    }
+
+    section img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+/* Define the footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Define specific styles for the site */
+.site-title {
+    font-size: 36px;
+}
+
+.site-description {
+    font-size: 24px;
+}
+
+.highlight {
+    color: #ffd700;
+    font-weight: bold;
+}
